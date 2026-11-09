@@ -118,7 +118,7 @@ function Forecast({ onNavigate, activePage }) {
       </main>
 
       <footer>
-        © 2026 Clima Tech · Dados Open-Meteo
+        © 2026 CLIMATECH  · Dados Open-Meteo
       </footer>
     </div>
   );

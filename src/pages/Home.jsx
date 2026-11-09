@@ -137,7 +137,7 @@ function Home() {
 
       <footer>
         <p>
-          © 2026 Clima Tech · Dados meteorológicos por Open-Meteo
+          © 2026 CLIMATECH  · Dados meteorológicos por Open-Meteo
         </p>
       </footer>
     </div>
