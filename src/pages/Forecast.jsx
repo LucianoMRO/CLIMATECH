@@ -67,7 +67,7 @@ function Forecast({ onNavigate, activePage }) {
 
         <div className="page-heading">
           <span>PREVISÃO METEOROLÓGICA</span>
-          <h2>Próximos <strong>7 dias.</strong></h2>
+          <h2>Próximos <strong>7 dias</strong></h2>
           <p>Acompanhe as condições do tempo em São Paulo.</p>
         </div>
 

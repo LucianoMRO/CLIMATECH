@@ -13,7 +13,7 @@ function Home() {
 
   async function searchWeather(cityName) {
     if (!cityName.trim()) {
-      setError("Digite o nome de uma cidade.");
+      setError("Digite o nome de uma cidade");
       return;
     }
 
@@ -46,7 +46,7 @@ function Home() {
       );
 
       if (!weatherResponse.ok) {
-        throw new Error("Não foi possível obter o clima.");
+        throw new Error("Não foi possível obter o clima");
       }
 
       const weatherData = await weatherResponse.json();
@@ -100,7 +100,7 @@ function Home() {
           <h2>
             Descubra o clima
             <br />
-            <span>da sua cidade.</span>
+            <span>da sua cidade</span>
           </h2>
 
           <p>

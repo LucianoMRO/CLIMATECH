@@ -6,8 +6,8 @@ function User() {
 
       <div className="page-heading">
         <span>ÁREA DO USUÁRIO</span>
-        <h2>Meu <strong>Perfil.</strong></h2>
-        <p>Confira suas informações e preferências.</p>
+        <h2>Meu <strong>Perfil</strong></h2>
+        <p>Confira suas informações e preferências</p>
       </div>
 
       <section className="user-card">
@@ -18,7 +18,7 @@ function User() {
 
         <h2> Visitante </h2>
         <p className="user-email">
-          visitante@climatech.com
+          
         </p>
 
         <span className="user-status">
@@ -33,7 +33,7 @@ function User() {
 
         <div className="user-info-item">
           <span>👤 Nome</span>
-          <strong>Visitante </strong>
+          <strong> Visitante </strong>
         </div>
 
         <div className="user-info-item">
@@ -48,7 +48,7 @@ function User() {
 
         <div className="user-info-item">
           <span>🌡️ Temperatura</span>
-          <strong>Celsius (°C)</strong>
+          <strong> Celsius (°C)</strong>
         </div>
 
       </div>
