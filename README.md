@@ -1,2 +1,2 @@
-# ClimaTech1
+# CLIMATECH
 
