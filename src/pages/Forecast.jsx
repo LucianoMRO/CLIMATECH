@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import Header from "../Components/Header";
+
 
 function Forecast({ onNavigate, activePage }) {
   const [days, setDays] = useState([]);
@@ -61,10 +61,7 @@ function Forecast({ onNavigate, activePage }) {
 
   return (
     <div className="app">
-      <Header
-        onNavigate={onNavigate}
-        activePage={activePage}
-      />
+
 
       <main className="main-content">
 

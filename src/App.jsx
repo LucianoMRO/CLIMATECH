@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 
 import Header from "./Components/Header";
@@ -13,6 +12,7 @@ function App() {
 
   return (
     <div className="app">
+
       <Header
         activePage={activePage}
         onNavigate={setActivePage}
@@ -23,6 +23,7 @@ function App() {
       {activePage === "forecast" && <Forecast />}
 
       {activePage === "about" && <About />}
+
     </div>
   );
 }

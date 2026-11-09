@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import Header from "../Components/Header";
+
 import SearchBar from "../Components/SearchBar";
 import WeatherCard from "../Components/WeatherCard";
 
@@ -91,8 +91,7 @@ function Home() {
 
   return (
     <div className="app">
-      <Header />
-
+     
       <main className="main-content">
 
         <div className="welcome">
