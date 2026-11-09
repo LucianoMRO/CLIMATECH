@@ -1,9 +1,12 @@
+
 import { useState } from "react";
 
 import Header from "./Components/Header";
+
 import Home from "./pages/Home";
 import Forecast from "./pages/Forecast";
 import About from "./pages/About";
+import User from "./pages/User";
 
 import "./App.css";
 
@@ -23,6 +26,8 @@ function App() {
       {activePage === "forecast" && <Forecast />}
 
       {activePage === "about" && <About />}
+
+      {activePage === "user" && <User />}
 
     </div>
   );

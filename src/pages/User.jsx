@@ -1,3 +1,4 @@
+import "./User.css";
 
 function User() {
   return (

@@ -1,0 +1,199 @@
+/* =========================
+   USER - CLIMA TECH
+========================= */
+
+.user-content {
+  width: 100%;
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #f1f7ff;
+  animation: appear 0.5s ease;
+}
+
+.user-header {
+  margin-bottom: 30px;
+}
+
+.user-header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.user-header p {
+  color: #91a3b8;
+  font-size: 14px;
+}
+
+/* PERFIL */
+
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+  background: linear-gradient(135deg, #172d43, #101c2c);
+  border: 1px solid rgba(0, 223, 208, 0.2);
+  border-radius: 22px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.user-avatar {
+  width: 95px;
+  height: 95px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 43px;
+  border-radius: 50%;
+  background: rgba(0, 223, 208, 0.12);
+  border: 2px solid #00dfd0;
+  box-shadow: 0 0 25px rgba(0, 223, 208, 0.15);
+}
+
+.user-details h2 {
+  font-size: 23px;
+  margin-bottom: 7px;
+}
+
+.user-email {
+  color: #91a3b8;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.user-status {
+  display: inline-block;
+  padding: 7px 13px;
+  color: #00dfd0;
+  background: rgba(0, 223, 208, 0.1);
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* INFORMAÇÕES */
+
+.user-information,
+.user-preferences {
+  margin-top: 22px;
+  padding: 25px;
+  background: #142438;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+}
+
+.user-information h3,
+.user-preferences h3 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.user-info-item,
+.preference-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 17px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.user-info-item:last-child,
+.preference-item:last-child {
+  border-bottom: none;
+}
+
+.user-info-item span {
+  color: #91a3b8;
+  font-size: 13px;
+}
+
+.user-info-item strong {
+  color: #f1f7ff;
+  font-size: 13px;
+}
+
+/* PREFERÊNCIAS */
+
+.preference-item strong {
+  font-size: 13px;
+}
+
+.preference-item p {
+  color: #91a3b8;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.preference-item > span {
+  color: #00dfd0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* AVISO */
+
+.user-disclaimer {
+  margin-top: 22px;
+  text-align: center;
+  color: #718399;
+  font-size: 11px;
+}
+
+/* ANIMAÇÕES */
+
+.user-card,
+.user-information,
+.user-preferences {
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.user-card:hover,
+.user-information:hover,
+.user-preferences:hover {
+  transform: translateY(-3px);
+  border-color: rgba(0, 223, 208, 0.3);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+  .user-content {
+    margin-top: 25px;
+  }
+
+  .user-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 18px;
+  }
+
+  .user-header h1 {
+    font-size: 25px;
+  }
+
+  .user-information,
+  .user-preferences {
+    padding: 20px;
+  }
+
+  .user-info-item {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
