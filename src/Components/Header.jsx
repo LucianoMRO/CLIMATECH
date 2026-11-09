@@ -1,21 +1,10 @@
 
 function Header({ activePage, onNavigate }) {
   const menu = [
-    {
-      id: "home",
-      label: "Início",
-      icon: "⌂"
-    },
-    {
-      id: "forecast",
-      label: "Previsão",
-      icon: "▦"
-    },
-    {
-      id: "about",
-      label: "Sobre",
-      icon: "ⓘ"
-    }
+    { id: "home", label: "Início", icon: "⌂" },
+    { id: "forecast", label: "Previsão", icon: "▦" },
+    { id: "about", label: "Sobre", icon: "ⓘ" },
+    { id: "user", label: "Usuário", icon: "👤" }
   ];
 
   return (
@@ -28,11 +17,12 @@ function Header({ activePage, onNavigate }) {
         <span className="logo-icon">☀</span>
 
         <h1>
-          CLIMA<span>TECH</span>
+          Clima<span>Tech</span>
         </h1>
       </div>
 
       <nav className="navigation">
+
         {menu.map((item) => (
           <button
             key={item.id}
@@ -48,6 +38,7 @@ function Header({ activePage, onNavigate }) {
             {item.label}
           </button>
         ))}
+
       </nav>
 
     </header>
