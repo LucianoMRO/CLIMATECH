@@ -17,7 +17,7 @@ function Header({ activePage, onNavigate }) {
         <span className="logo-icon">☀</span>
 
         <h1>
-          Clima<span>Tech</span>
+          CLIMA<span>TECH</span>
         </h1>
       </div>
 
