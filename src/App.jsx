@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Header from "./Components/Header";
 
@@ -12,6 +12,17 @@ import "./App.css";
 
 function App() {
   const [activePage, setActivePage] = useState("home");
+
+  useEffect(() => {
+    const titles = {
+      home: "Clima Tech | Início",
+      forecast: "Clima Tech | Previsão",
+      about: "Clima Tech | Sobre",
+      user: "Clima Tech | Usuário",
+    };
+
+    document.title = titles[activePage] || "Clima Tech";
+  }, [activePage]);
 
   return (
     <div className="app">
