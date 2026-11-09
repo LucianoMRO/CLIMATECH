@@ -16,13 +16,13 @@ function User() {
           👤
         </div>
 
-        <h2>Visitante Clima Tech</h2>
+        <h2> Visitante </h2>
         <p className="user-email">
           visitante@climatech.com
         </p>
 
         <span className="user-status">
-          ● Conta demonstrativa
+          ● Conta visitante
         </span>
 
       </section>
@@ -33,7 +33,7 @@ function User() {
 
         <div className="user-info-item">
           <span>👤 Nome</span>
-          <strong>Visitante Clima Tech</strong>
+          <strong>Visitante </strong>
         </div>
 
         <div className="user-info-item">
