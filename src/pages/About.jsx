@@ -7,7 +7,7 @@ function About() {
         <span>CONHEÇA NOSSO PROJETO</span>
 
         <h2>
-          Sobre o <strong>Clima Tech.</strong>
+          Sobre o <strong> CLIMATECH </strong>
         </h2>
 
         <p>
@@ -20,10 +20,10 @@ function About() {
 
         <div className="about-icon">🌤️</div>
 
-        <h2>O que é o Clima Tech?</h2>
+        <h2>O que é o CLIMATECH?</h2>
 
         <p>
-          O Clima Tech é uma plataforma de previsão
+          O CLIMATECH é uma plataforma de previsão
           meteorológica desenvolvida para apresentar
           informações climáticas de maneira simples,
           rápida e moderna.
